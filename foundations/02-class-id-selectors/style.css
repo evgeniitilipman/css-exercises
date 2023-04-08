@@ -1,0 +1,22 @@
+body{
+    font-size: 18px;
+    font-family: "Verdana", sans-serif;
+}
+.font-dejavu{
+    font-family: "DejaVu Sans", sans-serif;
+}
+.text-l{
+    font-size: 32px;
+}
+.background-red{
+    background-color: #ff7f7f;
+}
+#bold-text-green-bg {
+    font-weight: 700;
+    background-color: #1fff0f;
+    font-size: 28px;
+}
+#blue-xl-text{
+    color: #0022ee;
+    font-size: 40px;
+}
