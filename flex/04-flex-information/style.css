@@ -6,12 +6,38 @@ img {
   width: 100px;
   height: 100px;
 }
-
+.container{
+  max-width: 1264px;
+  margin: 0px auto;
+}
 .title {
   font-size: 36px;
   font-weight: 900;
 }
-
+.text {
+  text-align: center;
+}
+.card{
+  max-width: 200px;
+}
+.flex{
+  display: flex;
+}
+.vertical{
+  flex-direction: column;
+}
+.align-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.gap-32{
+  gap: 32px;
+}
+.gap-52{
+  gap:52px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
