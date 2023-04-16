@@ -7,28 +7,29 @@
     <title>The Holy Grail</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div class="header">
+  <body class="flex vertical">
+    <div class="header padding-8px">
       MY AWESOME WEBSITE
     </div>
-    
-    <div class="sidebar">
-      <ul>
-        <li><a href="#">⭐ - link one</a></li>
-        <li><a href="#">🦸🏽‍♂️ - link two</a></li>
-        <li><a href="#">🖌️ - link three</a></li>
-        <li><a href="#">👌🏽 - link four</a></li>
-      </ul>
+    <div class="flex">
+      <div class="sidebar flex-shrink0 padding-16px">
+        <ul class="flex vertical gap-8px">
+          <li><a href="#">⭐ - link one</a></li>
+          <li><a href="#">🦸🏽‍♂️ - link two</a></li>
+          <li><a href="#">🖌️ - link three</a></li>
+          <li><a href="#">👌🏽 - link four</a></li>
+        </ul>
+      </div>
+      <div class="padding-32px flex flex-wrap gap-24px">
+        <div class="card padding-16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?</div>
+        <div class="card padding-16px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
+        <div class="card padding-16px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.</div>
+        <div class="card padding-16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
+        <div class="card padding-16px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
+        <div class="card padding-16px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
+      </div>
     </div>
-
-    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?</div>
-    <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.</div>
-    <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
-    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
-    <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
-    <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
-    
-    <div class="footer">
+    <div class="footer flex justify-content-center align-items-center">
       The Odin Project ❤️
     </div>
   </body>
